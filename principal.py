@@ -7,7 +7,7 @@ especiais = '!@#$%¨&*()?~'
 algarismos = letras + numeros + especiais
 
 for i in range(10):
-    c = random.choice(algarismos)
-    senha.append(c)
+    i = random.choice(algarismos)
+    senha.append(i)
     
 print(''.join(senha))
